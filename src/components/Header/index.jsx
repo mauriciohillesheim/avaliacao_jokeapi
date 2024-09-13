@@ -13,7 +13,7 @@ export default function Header() {
                     <Link to="/about">
                         <li>Sobre</li>
                     </Link>
-                    <Link to="/">
+                    <Link to="/joke-Api">
                         <li>Categoria</li>
                     </Link>
                 </ol>

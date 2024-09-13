@@ -11,9 +11,11 @@ export default function App() {
     <>
     <Header />
     <Routes> 
+
     <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/ joke-Api' element={<JokeApi />} />
+        
     </Routes>
     <Footer/>
         </>

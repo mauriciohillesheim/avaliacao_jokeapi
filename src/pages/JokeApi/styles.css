@@ -1,0 +1,10 @@
+.home-page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: aquamarine;
+}
+.home-page input {
+    display: block;
+}

@@ -13,8 +13,8 @@ export default function Header() {
                     <Link to="/about">
                         <li>Sobre</li>
                     </Link>
-                    <Link to="/rick-and-morty">
-                        <li>Personagens</li>
+                    <Link to="/">
+                        <li>Categoria</li>
                     </Link>
                 </ol>
             </nav>

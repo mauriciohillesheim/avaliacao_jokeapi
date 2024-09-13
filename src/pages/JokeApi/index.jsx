@@ -12,7 +12,7 @@ export default function JokeApi() {
         }
 
         const response = await fetch(
-            " https://v2.jokeapi.dev/joke/[Categoria/-s]",
+            " https://v2.jokeapi.dev/categories",
             reqOptions
         )
 

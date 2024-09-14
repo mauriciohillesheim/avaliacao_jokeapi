@@ -12,7 +12,7 @@ export default function JokeApi() {
         }
 
         const response = await fetch(
-            " https://v2.jokeapi.dev/categories",
+            " https://v2.jokeapi.dev/character",
             reqOptions
         )
 
@@ -27,8 +27,8 @@ export default function JokeApi() {
 
     async function buildPiadas() {
         const consulta = await getCharacters()
-        
-        return consulta.results.map(categoria => <Piada data={categoria} />)
+        console.log(consulta);
+        return consulta.results.map(categoria => <Piada key={categoria.id} data={categoria} />)
     }
 
     useEffect(() => {

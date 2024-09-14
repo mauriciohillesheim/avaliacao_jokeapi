@@ -1,4 +1,9 @@
-piada {
+header {
+    background-color: rgb(147, 239, 147);
+    padding: 15px;
+}
+
+cabecalho {
     background-color: #470173;
     color: white;
     padding: 15px;

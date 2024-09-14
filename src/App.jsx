@@ -1,22 +1,24 @@
 //App.jsx
-import { Routes,Route } from 'react-router-dom'
 import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Home from './pages/Home'
 import About from './pages/About'
 import JokeApi from './pages/JokeApi'
- 
-export default function App() {
+import { Routes,Route } from 'react-router-dom'
+import Home from './pages/Home'
+
+function App() {
   return (
     <> 
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/ joke-Api' element={<JokeApi />} />
+        <Route path='/About' element={<About />} />
+        <Route path='/Joke-Api' element={<JokeApi />} />
       </Routes>
       <Footer/>
     </> 
   )
 }
+
+export default App

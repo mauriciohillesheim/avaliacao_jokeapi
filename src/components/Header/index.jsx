@@ -3,7 +3,7 @@ import './styles.css'
 
 export default function Header() {
     return (
-        <header className='cabecalho'>
+        <header className='piada'>
             <h1>Universo Joke</h1>
             <nav>
                 <ol>

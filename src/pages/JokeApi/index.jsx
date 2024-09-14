@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import './styles.css'
 import Card from '../../components/Card'
+import Piada from '../../components/Piada'
 
 export default function JokeApi() {
     const [ conteudo, setConteudo ] = useState(<>Carregando...</>)
@@ -28,7 +29,7 @@ export default function JokeApi() {
     async function buildCards() {
         const consulta = await getCharacters()
         
-        return consulta.results.map(categoria => <Card data={categoria} />)
+        return consulta.results.map(categoria => <Piada data={categoria} />)
     }
 
     useEffect(() => {

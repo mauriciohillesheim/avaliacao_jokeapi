@@ -1,5 +1,5 @@
 {
-  "name": "prova_react",
+  "name": "avaliacao-api",
   "private": false,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "prova_react": "file:",
+    "avaliacao-api": "file:",
+    "avaliacao-jokeapi": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.1"

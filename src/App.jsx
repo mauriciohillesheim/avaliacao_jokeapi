@@ -2,7 +2,7 @@ import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import About from './pages/About'
-import JokeApi from './pages/JokeApi'
+import Piadas from './pages/Piadas'
 import { Routes,Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Api from './pages/Api'
@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/About' element={<About />} />
-        <Route path='/Joke-Api' element={<JokeApi />} />
+        <Route path='/Piadas' element={<Piadas />} />
         <Route path='/Api' element={<Api />}/>
       </Routes>
       <Footer/>

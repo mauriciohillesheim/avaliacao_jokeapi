@@ -1,5 +1,3 @@
-// src/pages/Piadas/index.jsx
-
 import React, { useState } from 'react';
 import './styles.css'; // Certifique-se de criar um arquivo de estilos se necessário
 

@@ -1,26 +1,36 @@
 .cabecalho {
-    background-color: #470173;
-    color: white;
-    padding: 15px;
-    width: 100%;
-    text-align: center;
-}
- 
-.cabecalho ol {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
     display: flex;
-    justify-content: space-around;
-}
- 
-.cabecalho ol a {
-    width: 99%;
+    flex-direction: column;
+    align-items: center;
     padding: 10px;
+    background-color: #282c34;
     color: white;
-    text-decoration: none;
-}
- 
-.cabecalho ol a:hover {
-    background-color: #38015a;
-}
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  nav li {
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+    }
+  
+    nav ol {
+      gap: 10px;
+    }
+  }
+  

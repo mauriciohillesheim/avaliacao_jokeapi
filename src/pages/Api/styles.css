@@ -32,5 +32,5 @@
 .ApiPage img {
     margin-top: 20px;
     border-radius: 10px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra para a imagem */
+    box-shadow: 0 6px 12px rgba(227, 28, 28, 0.1); /* Sombra para a imagem */
 }

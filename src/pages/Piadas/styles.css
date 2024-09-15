@@ -6,20 +6,43 @@
   }
   
   .fetch-button {
-    background-color: #4caf50; /* Verde */
+    background-color: #4caf50;
     border: none;
     color: white;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 26px;
+    font-size: 16px;
     margin: 10px 2px;
     cursor: pointer;
     border-radius: 4px;
   }
   
   .fetch-button:hover {
-    background-color: #45a049; /* Verde mais escuro */
+    background-color: #45a049;
+  }
+  
+  /* Media queries para ajustar a responsividade */
+  @media (max-width: 768px) {
+    .piadas-container {
+      padding: 15px;
+    }
+  
+    .fetch-button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .piadas-container {
+      padding: 10px;
+    }
+  
+    .fetch-button {
+      font-size: 12px;
+      padding: 6px 12px;
+    }
   }
   

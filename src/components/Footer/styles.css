@@ -1,7 +1,13 @@
-footer {
-    background-color: #434343;
-    padding: 20px;
+.Rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    height: 10px;
+    background-color: #4c61af;
+    color: #0e0404;
     text-align: center;
-    color: white;
-    font-size: 1.3rem;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
 }

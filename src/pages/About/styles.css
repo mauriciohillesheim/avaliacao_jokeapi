@@ -1,3 +1,42 @@
-.about-page {
+.aboutPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Alinha os itens na vertical */
+    min-height: 100vh; /* Ocupa toda a altura da tela */
+
+    background: linear-gradient(135deg, #f0f0f0, #d9d9d9); /* Um leve degradê de fundo */
+    color: #2c3e50; /* Tom escuro e sofisticado de azul marinho */
+    font-family: 'Poppins', sans-serif; /* Fonte moderna e leve */
     text-align: center;
+
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar a seção */
+    border-radius: 12px; /* Canto levemente arredondado para suavizar o design */
+}
+
+.aboutPage h1 {
+    font-size: 2.5rem; /* Tamanho maior e chamativo para o título */
+    margin-bottom: 15px;
+    color: #34495e; /* Cor mais escura para contraste */
+    letter-spacing: 1.5px; /* Espaçamento entre as letras para um toque de sofisticação */
+}
+
+.aboutPage p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #7f8c8d; /* Tom mais suave de cinza para o parágrafo */
+    max-width: 800px; /* Limita a largura do texto para facilitar a leitura */
+    margin: 0 auto; /* Centraliza o parágrafo */
+}
+
+.aboutPage a {
+    color: #3498db; /* Azul vibrante para links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.aboutPage a:hover {
+    color: #1abc9c; /* Muda para um verde suave ao passar o mouse */
 }

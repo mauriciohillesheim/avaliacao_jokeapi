@@ -1,0 +1,36 @@
+.ApiPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f5; /* Cor mais clara e relaxante */
+    color: #333; /* Cor mais suave para o texto */
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Fonte casual e legível */
+    border-radius: 8px; /* Bordas arredondadas para um visual mais amigável */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar o conteúdo */
+}
+
+.ApiPage h1 {
+    font-size: 2.5rem; /* Título maior e mais casual */
+    color: #5a67d8; /* Cor de destaque descontraída */
+    margin-bottom: 15px;
+}
+
+.ApiPage h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.ApiPage ul {
+    list-style-type: disc; /* Estilo de lista descontraído */
+    padding-left: 20px;
+    margin: 15px 0;
+}
+
+.ApiPage img {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra para a imagem */
+}

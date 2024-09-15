@@ -1,10 +1,31 @@
-.home-page{
+.home-page {
     display: flex;
     justify-content: center;
+    align-items: center; /* Alinhando ao centro verticalmente */
     flex-direction: column;
     text-align: center;
-    background-color: aquamarine;
+    background-color: #7fffd4; /* Cor aquamarine mais suave */
+    height: 100vh; /* Ocupa a tela inteira para um layout mais imersivo */
+    font-family: 'Comic Sans MS', sans-serif; /* Fonte mais divertida e casual */
+    color: #333; /* Cor do texto mais suave */
+    padding: 20px;
+    border-radius: 15px; /* Bordas arredondadas para um visual mais amigável */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar a área */
 }
+
 .home-page input {
     display: block;
+    width: 80%; /* Tornando o input mais largo para ocupar espaço */
+    margin: 15px auto; /* Espaçamento em torno do campo de input */
+    padding: 10px;
+    font-size: 1.1rem; /* Aumentando o tamanho da fonte para melhor usabilidade */
+    border: 2px solid #333; /* Bordas para dar destaque ao input */
+    border-radius: 8px; /* Bordas arredondadas para combinar com o estilo geral */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave no input */
+}
+
+.home-page input:focus {
+    outline: none; /* Removendo a borda padrão ao focar no input */
+    border-color: #5a67d8; /* Cor de destaque ao focar no input */
+    box-shadow: 0 0 8px rgba(90, 103, 216, 0.5); /* Efeito de brilho ao focar */
 }

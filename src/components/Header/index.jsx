@@ -1,18 +1,18 @@
-import './styles.css'
 import { Link } from 'react-router-dom'
-
+import './styles.css'
 export default function Header() {
     return (
         <header className='cabecalho'>
-            <h1>Bem vindo ao Universo Joke</h1>
-            
+
+            <h1>Joke API</h1>
             <nav>
                 <ol>
-                <Link to='/'>Home</Link>
-                <Link to='/About'>Sobre</Link>
-                <Link to='/JokeApi'>Categorias</Link>
+                    <Link to="/" ><li>Home</li></Link>
+                    <Link to="/api"><li>Api</li></Link>
+                    <Link to="/about"><li>Sobre</li></Link>
+                    <Link to="/JokeApi"><li>Piadas</li></Link>
                 </ol>
             </nav>
         </header>
     )
-}
+}   

@@ -1,9 +1,66 @@
-.home-page{
+.home-page {
     display: flex;
     justify-content: center;
+    align-items: center; /* Centraliza verticalmente */
     flex-direction: column;
     text-align: center;
+    background-color: #f0f8ff; /* Cor de fundo suave */
+    min-height: 100vh; /* Garante que a página ocupe a altura total */
+    padding: 20px;
+    font-family: 'Arial', sans-serif; /* Fonte mais limpa e moderna */
+    color: #333; /* Cor de texto neutra */
 }
+
+.home-page h3 {
+    margin-bottom: 20px; /* Espaçamento entre os textos */
+    font-size: 1.2rem; /* Tamanho da fonte ajustado para melhor legibilidade */
+    line-height: 1.5; /* Aumenta o espaçamento entre linhas para clareza */
+}
+
+.home-page img {
+    margin-top: 20px;
+    border-radius: 15px; /* Bordas arredondadas na imagem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave na imagem */
+    transition: transform 0.3s ease; /* Animação suave ao passar o mouse */
+    width: 90%; /* Responsivo: ajusta a imagem para 90% da largura */
+    max-width: 560px; /* Limite máximo da largura */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.home-page img:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
 .home-page input {
     display: block;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #333;
+    border-radius: 8px;
+    width: 90%; /* Responsivo: o input ocupa 90% da largura da tela */
+    max-width: 400px; /* Tamanho máximo para evitar que fique muito largo */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.home-page input:focus {
+    outline: none;
+    border-color: #5a67d8; /* Cor de destaque ao focar no input */
+    box-shadow: 0 0 8px rgba(90, 103, 216, 0.5);
+}
+
+/* Media Query para telas menores */
+@media (max-width: 768px) {
+    .home-page h3 {
+        font-size: 1rem; /* Ajuste no tamanho da fonte para telas menores */
+    }
+
+    .home-page img {
+        width: 100%; /* A imagem ocupa 100% da largura da tela em dispositivos menores */
+        max-width: 100%; /* Remove o limite máximo em telas menores */
+    }
+
+    .home-page input {
+        width: 100%; /* O input também ocupa toda a largura da tela */
+    }
 }
